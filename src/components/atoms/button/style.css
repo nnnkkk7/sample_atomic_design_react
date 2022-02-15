@@ -5,7 +5,7 @@
   border: 0;
   outline: 0;
   display: block;
-  font-family: var(--base-font-family);
+  font-family: let(--base-font-family);
   font-size: 0.9em;
   font-weight: 600;
   text-transform: uppercase;
@@ -30,26 +30,26 @@
 /* Theme */
 .default {
   color: #fff;
-  background: var(--brand);
-  border: 1px solid var(--brand);
+  background: let(--brand);
+  border: 1px solid let(--brand);
 }
 
 .rounded {
-  color: var(--brand);
+  color: let(--brand);
   background: #fff;
-  border: 1px solid var(--brand);
+  border: 1px solid let(--brand);
   transition: color 0.3s ease, background 0.3s ease;
 
   &:hover {
     color: #fff;
-    background: var(--brand);
+    background: let(--brand);
   }
 }
 
 /* Disabled */
 .disabled {
-  color: var(--grey-2);
-  background: color(var(--grey-4) tint(40%));
-  border-color: var(--grey-4);
+  color: let(--grey-2);
+  background: color(let(--grey-4) tint(40%));
+  border-color: let(--grey-4);
   cursor: default;
 }

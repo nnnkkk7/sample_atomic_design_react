@@ -9,7 +9,7 @@
     content: '';
     display: inline-block;
     width: 1em;
-    border-bottom: 2px solid var(--brand);
+    border-bottom: 2px solid let(--brand);
     margin-top: 0.2em;
     margin-left: 0.5em;
   }

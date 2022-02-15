@@ -6,13 +6,13 @@
   letter-spacing: 3px;
   line-height: 1;
   margin-top: 0;
-  color: var(--grey-3);
+  color: let(--grey-3);
 
   &:after {
     content: '';
     display: block;
     width: 1em;
-    border-bottom: 2px solid var(--brand);
+    border-bottom: 2px solid let(--brand);
     margin-top: -0.5em;
     margin-left: -1.1em;
   }
